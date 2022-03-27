@@ -38,10 +38,12 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
-	{ "icalingua",  NULL,       NULL,       1 << 2,     1,           -1 },
+	/* class                          instance    title       tags mask     isfloating   monitor */
+	{ "Gimp",                         NULL,       NULL,       0,            1,           -1 },
+	{ "Firefox",                      NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "icalingua",                    NULL,       NULL,       1 << 2,       1,           -1 },
+	{ "netease-cloud-music",          NULL,       NULL,       1 << 3,       1,           -1 },
+  
 };
 
 /* layout(s) */
